@@ -21,3 +21,134 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+body{
+  background-color: #f5f5f5 ;
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.karta {
+  box-sizing: border-box;
+  width: 670px;
+  height: 440px;
+  display: flex;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px #959595;
+}
+
+.leva{
+  flex-basis: 50%;
+  flex-grow: 0;
+  background-image: linear-gradient(#06d7c1,#50cc49);
+  padding: 30px;
+  position: relative;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  color: white;
+}
+
+.logo{
+  margin-bottom: 30px;
+}
+
+.tempo{
+  font-size: 16px;
+  font-weight: 500;
+}
+.obrazek{
+  position: absolute;
+  right:0px;
+}
+
+.cena{
+  position:absolute;
+  text-align: right;
+  bottom: 30px;
+  right:30px;
+  font-size: 12px;
+}
+
+.hodnota{
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.prava{
+  flex-basis: 50%;
+  flex-grow: 0;
+  position: relative;
+  padding: 30px;
+  background-color: white;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+h1{
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin:0;
+}
+
+.seda{
+  color: #959595;
+  margin-bottom: 30px;
+}
+
+.prava p{
+  margin-bottom: 30px;
+  
+}
+
+.velikosti{
+  border-top: 2px solid #06d7c1;
+  font-size: 16px;
+}
+
+h2{
+  margin:30px 0 15px 0;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.velikosti ul{
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+}
+.velikosti li{
+  display: inline-block;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.velikosti li:hover,
+.velikosti li:active{
+  border-radius: 50%;
+  border: 1px solid #f15f42;
+  font-weight: 500;
+  color: #f15f42;
+}
+
+.kosik{
+  background-color: #f15f42;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 15px 25px;
+
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  box-shadow: 0px 2px 5px #959595;
+  
+}
